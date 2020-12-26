@@ -31,5 +31,14 @@ class ViewController: UIViewController {
     @IBAction func someDone(_ sender: UIButton) {
         round(0.75*3)
     }
+    
+}
+
+struct person {
+    var age:Int
+    var name:String
+    func sayHello(){
+        print("hi \(name)")
+    }
 }
 
